@@ -49,8 +49,8 @@ class Solution:
 #
 # Your code here along with comments explaining your approach
 # 1. Explore all paths for each ind of candidates
-# 2. 1st action -> append current element to path, 2nd -> recurse on the next index (from which pivot again and explore all paths), 3rd -> backtrack (undo the action, remove 
-#     the element from the list.
+# 2. 1st action -> append current element to path, 2nd -> recurse on the same index, as same element can be chosen again (from which pivot again and explore all paths), 
+#     3rd -> backtrack (undo the action, remove the element from the list.
 # 3. If the current sum is equal to target, add current path to the global var result.
 
 class Solution:
